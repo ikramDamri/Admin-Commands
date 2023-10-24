@@ -1,0 +1,5 @@
+#!/bin/bash
+# Author: Ikram Damri
+# This script will rename files older than 90 days. 
+
+find . -mtime +30 -exec mv {} {}.old \;

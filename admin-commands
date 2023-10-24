@@ -1,0 +1,8 @@
+#!/bin/bash
+# Author: Ikram Damri
+# This script will formats the output of admin commands
+
+date | awk '{print $1}'
+uptime | awk '{print $1}'
+df -h | grep root
+top | awk '{print $3}'

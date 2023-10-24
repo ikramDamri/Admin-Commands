@@ -1,0 +1,2 @@
+00 9 * * * /home/ikram/ping-script | -mail -s "Connectevity Status" ikram.damri@usms.ac.ma
+

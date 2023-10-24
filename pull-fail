@@ -1,0 +1,5 @@
+#!/bin/bash
+# Author: ikram Damri
+# Description: This script will pull only Failed messages that are copied from /var/log/messages to the home directory:
+
+grep -i fail /home/ikram/professional-scripts/messages.log

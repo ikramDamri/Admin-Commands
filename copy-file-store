@@ -1,0 +1,10 @@
+#!/bin/bash
+# Author: Ikram Damri
+# This script will copy files to remote hosts
+
+hosts=`cat /home/ikram/hosts`
+
+for i in $hosts
+do
+	$i:/path
+done

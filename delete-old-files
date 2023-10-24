@@ -1,0 +1,5 @@
+#!/bin/bash
+# Author: Ikram Damri
+# This script will delete files older than 90 days. 
+
+find . -mtime +30 -exec rm {} \;
