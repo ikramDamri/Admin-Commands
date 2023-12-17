@@ -1,1 +1,1 @@
-# Laravel-MCQ
+# Admin commands
